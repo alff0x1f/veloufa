@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  Hello, world. I'm main page!
+  <form action='/login_alff/' method='POST'>
+    Username: <input type="text" name="username">
+    Password: <input type="password" name="password">
+    <input type="submit" value="Войти"> 
+    {% csrf_token %}
+  </form>
+</body>
+</html>
