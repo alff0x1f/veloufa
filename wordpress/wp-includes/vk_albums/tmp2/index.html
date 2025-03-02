@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./slimbox/slimbox2.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.slimbox2.js"></script>
+    <script src="js/jquery.embedvkgallery.js"></script>
+</head>
+<body>
+<div id="vkgallery" style="width:620px;" data-width="50" class="p"></div>
+<script>
+    (function($) {
+        $(function() {
+           $('#vkgallery').EmbedVkGallery('http://vk.com/album-71713142_196340316');
+           //$('#vk').EmbedVkGallery('http://vk.com/album-27725748_154688860');
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
