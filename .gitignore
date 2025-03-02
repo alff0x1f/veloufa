@@ -4,3 +4,5 @@ wordpress/wp-content/uploads
 /wordpress/wp-admin/forum.sql.zip
 /wordpress/wp-admin/forum2.sql.zip
 /wordpress/wp-admin/forum3.sql.zip
+
+/wordpress/wp-config.php
