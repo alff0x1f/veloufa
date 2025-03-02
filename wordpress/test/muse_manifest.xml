@@ -1,0 +1,82 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1429729716793">
+  <folder name="css">
+    <file name="site_global.css" crc="3892245798"/>
+    <file name="index.css" crc="4021010117" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="bloggersans.woff" crc="19812229"/>
+    <file name="bloggersans.eot" crc="4047061428"/>
+    <file name="bloggersans.svg" crc="4109822324"/>
+    <file name="bloggersans-light.woff" crc="326942911"/>
+    <file name="bloggersans-light.eot" crc="358797212"/>
+    <file name="bloggersans-light.svg" crc="4007873655"/>
+    <file name="bloggersans-bold.woff" crc="305261205"/>
+    <file name="bloggersans-bold.eot" crc="168477192"/>
+    <file name="bloggersans-bold.svg" crc="208689787"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index"/>
+    <file name="museutils.js" crc="3777594392" ref="index"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4259541792" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="474087315" ref="index"/>
+    <file name="musewpslideshow.js" crc="274584885" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="170414611" ref="index"/>
+    <file name="touchswipe.js" crc="100683906" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3952359668" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="untitled-3.png" crc="3835869435" ref="index"/>
+    <file name="etj64uikkje.jpg" crc="4170751531" ref="index"/>
+    <file name="вставленное изображение 640x640.jpg" crc="497372613" ref="index"/>
+    <file name="0dw1k8iyfui.jpg" crc="3784199941" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="2efxogyd3cg-crop-u412.jpg" crc="3854697977" ref="index"/>
+    <file name="agdlwiydifi.jpg" crc="3935836817" ref="index"/>
+    <file name="b2eg7-mcr50.jpg" crc="114006233" ref="index"/>
+    <file name="b090or7tgim.jpg" crc="251207942" ref="index"/>
+    <file name="efgdb2jlmli.jpg" crc="366372668" ref="index"/>
+    <file name="exzgdwd9ugg.jpg" crc="3880376246" ref="index"/>
+    <file name="fjy-owmltbm.jpg" crc="491656154" ref="index"/>
+    <file name="knhjpezgvru.jpg" crc="3900108838" ref="index"/>
+    <file name="lajk9ntntui.jpg" crc="4097276223" ref="index"/>
+    <file name="mribw3tfkno-crop-u493.jpg" crc="3798959864" ref="index"/>
+    <file name="nghwuasbloa.jpg" crc="4004566206" ref="index"/>
+    <file name="o35boe-ikxe.jpg" crc="120828079" ref="index"/>
+    <file name="omo47vbsqy8-crop-u520.jpg" crc="3967483996" ref="index"/>
+    <file name="ppz7h7ojgpw.jpg" crc="174018328" ref="index"/>
+    <file name="pzyjnyqhfri.jpg" crc="9149109" ref="index"/>
+    <file name="qeg5soxhfby-2.jpg" crc="54161055" ref="index"/>
+    <file name="snybldxlcsg.jpg" crc="3992423781" ref="index"/>
+    <file name="sxpsnxth1sm-2.jpg" crc="532619010" ref="index"/>
+    <file name="tyavrgbj3gu-3.jpg" crc="4103842188" ref="index"/>
+    <file name="ukrdmc1259c.jpg" crc="236553273" ref="index"/>
+    <file name="umrkxbz7b7c.jpg" crc="4218656184" ref="index"/>
+    <file name="0dw1k8iyfui68x45.jpg" crc="3798464491" ref="index"/>
+    <file name="2efxogyd3cg60x45.jpg" crc="206278927" ref="index"/>
+    <file name="agdlwiydifi68x45.jpg" crc="4118010765" ref="index"/>
+    <file name="b2eg7-mcr5068x45.jpg" crc="3821372710" ref="index"/>
+    <file name="b090or7tgim68x45.jpg" crc="264369911" ref="index"/>
+    <file name="efgdb2jlmli-crop-u451.jpg" crc="4018143733" ref="index"/>
+    <file name="exzgdwd9ugg-crop-u460.jpg" crc="4094203758" ref="index"/>
+    <file name="fjy-owmltbm-crop-u469.jpg" crc="4025801001" ref="index"/>
+    <file name="knhjpezgvru68x45.jpg" crc="3873888070" ref="index"/>
+    <file name="lajk9ntntui-crop-u487.jpg" crc="417450177" ref="index"/>
+    <file name="mribw3tfkno60x45.jpg" crc="4286189012" ref="index"/>
+    <file name="nghwuasbloa68x45.jpg" crc="14066413" ref="index"/>
+    <file name="o35boe-ikxe68x45.jpg" crc="3959595706" ref="index"/>
+    <file name="omo47vbsqy860x45.jpg" crc="4203529720" ref="index"/>
+    <file name="ppz7h7ojgpw68x45.jpg" crc="334209441" ref="index"/>
+    <file name="pzyjnyqhfri68x45.jpg" crc="58407705" ref="index"/>
+    <file name="qeg5soxhfby-268x45.jpg" crc="3846217503" ref="index"/>
+    <file name="snybldxlcsg68x45.jpg" crc="352283325" ref="index"/>
+    <file name="sxpsnxth1sm-268x45.jpg" crc="4103228426" ref="index"/>
+    <file name="tyavrgbj3gu-3-crop-u577.jpg" crc="171208367" ref="index"/>
+    <file name="ukrdmc1259c68x45.jpg" crc="3960137307" ref="index"/>
+    <file name="umrkxbz7b7c68x45.jpg" crc="225083952" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="velo.png" crc="4203881695" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3820174245" mt="1429729704970" redirect="true"/>
+</manifest>

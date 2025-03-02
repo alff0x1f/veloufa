@@ -1,0 +1,400 @@
+/*
+
+*/
+
+.version.index /* version checker */
+{
+	color: #0000E9;
+	background-color: #32E1DC;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 499.93417712026576px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -4px;
+	margin-bottom: -151px;
+}
+
+#u131
+{
+	z-index: 7;
+	width: 585px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #47A25A;
+	background-color: #47A25A;
+	padding-bottom: 32px;
+	margin-left: 174px;
+	position: relative;
+}
+
+#u136
+{
+	z-index: 37;
+	width: 484px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 20px;
+	left: 49px;
+}
+
+#u81
+{
+	z-index: 2;
+	height: 1188px;
+	border-style: none;
+	border-color: transparent;
+	position: fixed;
+	top: 0px;
+	background: #FFFFFF url("../images/etj64uikkje.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+#u81-bw
+{
+	z-index: 2;
+}
+
+#pu126
+{
+	width: 0.01px;
+	margin-left: 178px;
+	margin-top: 81px;
+}
+
+#u126
+{
+	z-index: 3;
+	width: 508px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #47A25A;
+	background-color: #FFFFFF;
+	margin-bottom: -4px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -4px;
+	left: -4px;
+	padding: 21px 42px 43.35000000000002px 35px;
+}
+
+#u127-5
+{
+	z-index: 8;
+	width: 508px;
+	min-height: 113px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u127-2
+{
+	font-size: 52px;
+	line-height: 52px;
+	color: #47A25A;
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+}
+
+#u148-19
+{
+	z-index: 39;
+	width: 498px;
+	min-height: 240px;
+	background-color: transparent;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: '__Blogger Sans_1';
+	font-weight: 300;
+	margin-left: 4px;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u148-8,#u148-10,#u148-12
+{
+	padding-left: 25px;
+}
+
+#u148-2,#u148-15
+{
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+}
+
+#u186
+{
+	z-index: 58;
+	width: 9px;
+	height: 9px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #47A25A;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-khtml-border-radius: 90px;
+	border-radius: 90px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 277px;
+	left: 48px;
+}
+
+#u187
+{
+	z-index: 59;
+	width: 9px;
+	height: 9px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #47A25A;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-khtml-border-radius: 90px;
+	border-radius: 90px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 253px;
+	left: 48px;
+}
+
+#u188
+{
+	z-index: 60;
+	width: 9px;
+	height: 9px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #47A25A;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-khtml-border-radius: 90px;
+	border-radius: 90px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 300px;
+	left: 48px;
+}
+
+#u189
+{
+	z-index: 4;
+	width: 508px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #47A25A;
+	background-color: #FFFFFF;
+	margin-left: 174px;
+	margin-top: 66px;
+	position: relative;
+	padding: 40px 42px 34px 35px;
+}
+
+#u191-7
+{
+	z-index: 13;
+	width: 508px;
+	min-height: 113px;
+	background-color: transparent;
+	font-size: 52px;
+	color: #47A25A;
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+	position: relative;
+}
+
+#u195-6
+{
+	z-index: 20;
+	width: 508px;
+	min-height: 113px;
+	background-color: transparent;
+	font-size: 52px;
+	color: #47A25A;
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+	margin-top: 24px;
+	position: relative;
+}
+
+#u203-7
+{
+	z-index: 26;
+	width: 508px;
+	min-height: 113px;
+	background-color: transparent;
+	font-size: 52px;
+	color: #47A25A;
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+	margin-top: 25px;
+	position: relative;
+}
+
+#u191-2,#u195-2,#u203-2
+{
+	line-height: 52px;
+}
+
+#u191-5,#u195-4,#u203-5
+{
+	line-height: 57px;
+}
+
+#u148-3,#u191-3,#u195-3,#u203-3
+{
+	font-family: '__Blogger Sans_1';
+	font-weight: 300;
+}
+
+#pu223
+{
+	width: 0.01px;
+	margin-left: 178px;
+	margin-top: 33px;
+}
+
+#u223
+{
+	z-index: 5;
+	width: 585px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #47A25A;
+	background-color: #FFFFFF;
+	padding-bottom: 41px;
+	margin-bottom: -4px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -4px;
+	left: -4px;
+}
+
+#u225-4
+{
+	z-index: 33;
+	width: 508px;
+	min-height: 113px;
+	background-color: transparent;
+	font-size: 52px;
+	color: #47A25A;
+	line-height: 52px;
+	font-family: '__Blogger Sans_1';
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 29px;
+	left: 35px;
+}
+
+#u205
+{
+	z-index: 61;
+	width: 200px;
+	min-height: 54px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 109px;
+	left: 39px;
+}
+
+#u207
+{
+	z-index: 62;
+	width: 200px;
+	min-height: 48px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #41414C;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 48px;
+	font-size: 24px;
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	margin-left: 1064px;
+	top: -273px;
+	margin-bottom: -48px;
+	position: relative;
+}
+
+#u204
+{
+	z-index: 6;
+	width: 585px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #47A25A;
+	background-color: #47A25A;
+	padding-bottom: 59px;
+	margin-left: 174px;
+	margin-top: 41px;
+	position: relative;
+}
+
+#u210
+{
+	z-index: 63;
+	width: 265px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 39px;
+	left: 149px;
+}
+
+@font-face
+{
+	font-family: '__Blogger Sans_1';
+	src: url('../fonts/bloggersans-bold.eot');
+	src: local('☺'), url('../fonts/bloggersans-bold.woff') format('woff'), url('../fonts/bloggersans-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Blogger Sans_1';
+	src: url('../fonts/bloggersans-light.eot');
+	src: local('☺'), url('../fonts/bloggersans-light.woff') format('woff'), url('../fonts/bloggersans-light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-bottom: 115px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
