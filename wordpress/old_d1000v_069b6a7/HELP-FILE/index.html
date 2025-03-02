@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>SINGLE SLIDER - AWESOME ONE PAGE SITE TEMPLATE - DOCU</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+  <div class="container">
+	
+		<h3 class="center alt">&ldquo;SINGLE SLIDER - Awesome one page site template&rdquo; Documentation by &ldquo;Foos&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">SINGLE SLIDER<br>
+		</h1>
+		<h1 class="center">&nbsp;</h1>
+		<h1 class="center">(downloaded from <span class="error">themelock.com</span>)</h1>
+<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+			  <p class="prepend-top">
+					<strong>
+					Created: 10/06/2011<br>
+					By: Foos<br>
+					Email: <a href="mailto:dominik.geisler@freenet.de">mail@foos</a>
+              
+					</strong>
+			  </p>
+</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. If you are happy with the theme, please don´t forget to rate it<strong><a href="http://themeforest.net/user/Ansonika"></a></strong> on the ThemeForest website.
+Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psdFiles">PSD Files</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+    <hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This one page site template is a fixed-width design (890px) Use it for your business, your portfolio, some products or any other purpose.<br>
+</p>
+		<p><strong>How to change the logo:</strong><br>
+	  Replace the mainlogo by replacing the file with the name: <strong>logo.png. </strong>You can find the<strong> logo.psd</strong> file in the psd folder.</p>
+		<p><strong>How to change the images in the nivo slider:</strong><br>
+		  To add more images to Nivo slider simply find the comment <code> < !-- start nivo slider -- > </code>and then insert your portfolio images. At this moment there are 3 placeholders called: slider01.jpg, slider02.jpg and slider03.jpg. Of course, you can replace these images. To put a simple caption use the tag title; if you wont an advanced caption, modify (or use multiple id name of this) find the comment <code>< !-- start nivo slider caption-- ></code> .<br>
+	  </p>
+<p><strong>How to put your own navigation:<br>
+    </strong>Search for the psd-file: <strong>&quot;nav.psd&quot;</strong> - You only have to write your own words with every font you want. (I used BEBAS NEUE FONT) Then save your navi as nav.png and overwrite the original file in the images folder.
+<p><strong>How to put your own video:<br>
+</strong>Search for <strong>&lt;!-- Your video here --&gt;</strong> in the main code and replace the link with your own. 
+<p><strong>How to put your own portfolio images:<br>
+</strong>Search for <strong> &lt;!-- Your portfolio images start here --&gt; </strong>and replace the images (1.jpg, 1_black.jpg, ...) in the portfolio-folder with your own images.<p><strong>How to change the text area:<br>
+</strong>Search for <strong> &lt;!-- Your text areas starts here --&gt; </strong>and write every text you want.
+<p><strong>How to change the cufon-font:<br>
+</strong>You have to go http://cufon.shoqolate.com/generate/ and upload every font you want to use. Then save your file in the<strong> js </strong>folder<strong>. </strong>Search for &lt;!--START CUFON--&gt; in the main code and replace <strong>Droid_Sans_400.font </strong>with your generated file name. Done!
+<p><strong>How to enable the tooltip:<br>
+</strong>To place a tooltip above your images or text you only have to use this code: <br>	
+<strong>&lt;a href=&quot;#&quot; class=&quot;tip_trigger&quot;&gt;YOUR IMAGE OR TEXT &lt;span class=&quot;tip&quot;&gt;This will show up in the tooltip&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</strong>
+<p><strong>How to change the list styles:<br>
+</strong>Search for <strong> &lt;!-- Lists--&gt;</strong> in the maincode and write your lists.
+<p><strong>How to change the tabbed content:<br>
+</strong>Search for  &lt;!--Tabbed Boxes--&gt; and change the text. To add a new box you only have to write copy<strong> content_3 </strong>and rename it in <strong>content_4. </strong>Than add the<strong> content_4 </strong>in the css menu and the<strong> ul.<br>
+  </strong>
+<p>
+<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using two main css files:	</p>
+	  <ol>
+	<li>reset.css</li>
+			<li>screen.css    </li>
+	  </ol>
+	  <p>To modify colors, typography, buttons, etc. you have to search for this in the screen.css</p>
+<pre>/*	<br>-------------------------------------------<br>Main structure<br>-------------------------------------------<br>*/
+
+<em>some important code for the main structure</em>
+
+
+
+/*	<br>-------------------------------------------<br>Nivo Slider<br>-------------------------------------------<br>*/
+	
+<em>	the code to change the nivo slider</em><em></em>
+
+
+/*	<br>-------------------------------------------<br>Tabs<br>-------------------------------------------<br>*/
+
+<em>	the code to change the jquery tabbed content.</em>
+
+</pre>
+<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme uses Javascript.</p>
+		
+	  <ol>
+			<li>Jquery</li>
+		<li>Nivo Slider</li>
+		<li>ScrollTo</li>
+			<li>Colorbox<br>
+			  <br>
+	    </li>
+	  </ol>
+<hr>
+		
+		<h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've included the layered and grouped psd file called<strong> nav.psd</strong>  and <strong>background_button.psd </strong>in the folder <strong>psd</strong>.</p>
+<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		
+	  <ul>
+            <li><a href="http://www.iconfinder.com/">Icon Finder</a></li>
+            <li><a href="http://nivo.dev7studios.com/">Nivo Slider</a></li>
+            <li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/how-to-create-a-slick-tabbed-content-area/">Tabbed Boxes</a></li>
+            <li><a href="http://www.sohtanaka.com/">Tooltip</a></li>
+            <li><a href="http://fancybox.net/">Fancybox</a></li>
+            <li><a href="http://istockphoto.com">Preview Images</a></li>
+	  </ul>
+		
+<hr>
+		
+		<p><strong><br>
+	    Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</strong></p>
+		<p><strong>Greetings and all the best with my template</strong></p>
+		<h3><strong><em>FOOS</em></strong></h3>
+<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
