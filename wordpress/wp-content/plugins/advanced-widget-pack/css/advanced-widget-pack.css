@@ -1,0 +1,1207 @@
+/*
+Plugin Name: 	Advanced Widget Pack
+Plugin URI: 	http://codecanyon.net/item/advanced-widget-pack
+Description: 	Adds an set of advanced widgets to your WordPress site.
+Version: 		1.3
+Author: 		WPInsite
+Author URI: 	http://www.wpinsite.com
+License: 		Sold exclusively on CodeCanyon
+*/
+
+/* ADVANCED WIDGET PACK */
+
+div.advancedwidgetpack, div.advancedwidgetpack ul, div.advancedwidgetpack ul li, div.advancedwidgetpack ul li img, div.advancedwidgetpack ul li span, .advancedwidgetpack ul li a {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.advancedwidgetpack {
+	font-family: inherit;
+	width: 100%;
+	margin: 0;
+}
+
+div.advancedwidgetpack h3 {
+	margin: 0;
+	padding: 2px 0 5px 10px;
+	color: #343434;
+}
+
+div.advancedwidgetpack ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul li {
+	border-bottom: 1px solid #eee;
+	padding: 20px 0px;
+	min-height: 50px;
+}
+
+div.advancedwidgetpack ul li img.thumb {
+	background: #fff;
+	float: left;
+	margin: 0 8px 10px 0;
+	width: auto;
+	height: 50px;
+}
+
+div.advancedwidgetpack .headline {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div.advancedwidgetpack .time {
+	font-weight: normal;
+	font-size: 11px;
+	display: block;
+	color: #898888;
+}
+
+div.advancedwidgetpack a:hover .time {
+	text-decoration: none !important;
+}
+
+.clearfix:before, .clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.clearfix {
+	zoom: 1
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+/* == Contact Info Widget == */
+
+.awp_contact_info {
+	
+}
+
+.awp_contact_info .container {
+	font-family: inherit;
+	background: #fefefe url(../images/bg-box.png) repeat-x;
+	width: 100%;
+	margin: 0 0 10px 0 !important;
+	padding: 5px 2px 10px 5px !important;
+	border: 1px solid #ddd !important;
+	font-size: 90%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.awp_contact_info span {
+	padding: 5px;
+	display: block;
+	padding-left: 25px;
+	margin-bottom: 1px;
+}
+
+.awp_contact_info span.address {
+	background: url(../images/icon-address.png) no-repeat 5px 6px;
+}
+
+.awp_contact_info span.phone {
+	background: url(../images/icon-phone.png) no-repeat 5px 6px;
+}
+
+.awp_contact_info span.mail {
+	background: url(../images/icon-email.png) no-repeat 5px 6px;
+}
+
+.awp_contact_info span.fax {
+	background: url(../images/icon-phone.png) no-repeat 5px 6px;
+}
+
+.awp_contact_info span.website {
+	background: url(../images/icon-url.png) no-repeat 5px 6px;
+}
+
+/* == Feedburner Subscribe Widget == */
+
+.awp_subscribe {
+	padding: 5px;
+}
+
+.awp_subscribe .subtxt {
+	width: 95%;
+	margin: 0;
+}
+
+.awp_subscribe .btn {
+	margin: 5px 5px 0 0;
+	float: right;
+}
+
+.awp_subscribe .feedburner {
+	float: left;
+	padding-left: 35px;
+	background: url(../images/icon-feedburner.png) no-repeat 0px 0px;
+	margin-bottom: 7px;
+	min-height: 27px;
+	font-size: 13px;
+}
+
+.awp_subscribe input {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-webkit-font-smoothing: antialiased;
+		/* IE8 only */ border: 1px solid #eee;
+	color: #666;
+	padding: 6px;
+	height: 18px;
+	font-size: 11px;
+	line-height: 18px;
+	vertical-align: top;
+	margin: 5px 0 0;
+}
+
+.awp_subscribe input:focus, .awp_subscribe input:active {
+	background: #fafafa;
+}
+
+.awp_subscribe button {
+	padding: 4px !important;
+	vertical-align: top;
+	margin: 5px 0 0 !important;
+	height: 28px !important;
+	line-height: 18px !important;
+	text-align: left;
+	width: auto;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 0;
+	background: #4b88a0;
+	background-image: -moz-linear-gradient(#75a1b2, #4b88a0);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #75a1b2),color-stop(1, #4b88a0));
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #75a1b2 #4b88a0 #38677a;
+	font: bold 11px Arial, Helvetica !important;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+.awp_subscribe button:hover {
+	background: #75a1b2;
+	background-image: -moz-linear-gradient(#4b88a0, #75a1b2);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #4b88a0),color-stop(1, #75a1b2));
+	cursor: pointer;
+}
+
+.awp_subscribe button:active {
+	background: #89C9E2;
+	outline: none;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* == Flickr Widget ==*/
+
+.flickr a { 
+	font-size: 12px;
+	color: #999; 
+	}
+
+ul.flickr li.first {
+	display: none;
+}
+
+.flickr {
+	margin: auto;
+	padding: 0 0 0 0px;
+	width: 280px;
+	text-align: center;
+}
+
+ul.flickr-thumbs {
+	margin: 15px 0 0 0;
+	width: 280px;
+}
+
+ul.flickr-thumbs li {
+	margin: 0px 10px 10px 0 !important;
+	list-style-image: none;
+}
+
+.flickr-thumbs li {
+	list-style: none;
+	float: left;
+	border: none !important;
+	background: #fff;
+	padding: 0 !important;
+	
+}
+
+.flickr-thumbs li a {
+	padding: 0;
+	margin: 0
+}
+
+.flickr-thumbs li img {
+	display: block;
+	padding: 0 !important;
+	width: 81px;
+	margin: 0
+}
+
+.flickr-thumbs li a img {
+	border: none;
+}
+
+.flickrmore {
+	clear: both;
+	padding: 7px 0 0 0;
+}
+
+/*FLICKR LEFT*/
+#section-three.grid4 ul.flickr li.first {
+	display: none;
+}
+
+#section-three.grid4 .flickr {
+	margin: auto;
+	padding: 0 0 0 0px;
+	width: 180px;
+	text-align: center;
+}
+
+#section-three.grid4 ul.flickr-thumbs {
+	margin: 15px 0 0 0;
+	width: 180px;
+}
+
+#section-three.grid4 ul.flickr-thumbs li {
+	margin: 0px 10px 10px 0 !important;
+	list-style-image: none;
+}
+
+#section-three.grid4 .flickr-thumbs li {
+	list-style: none;
+	float: left;
+	border: none !important;
+	background: #fff;
+	padding: 0 !important;
+	
+}
+
+#section-three.grid4 .flickr-thumbs li a {
+	padding: 0;
+	margin: 0
+}
+
+#section-three.grid4 .flickr-thumbs li img {
+	display: block;
+	padding: 0 !important;
+	width: 76px;
+	border: 1px solid #eee !important;
+	margin: 0
+}
+
+#section-three.grid4 .flickr-thumbs li a img {
+	border: none;
+}
+
+#section-three.grid4 .flickrmore {
+	clear: both;
+	padding: 7px 0 0 0;
+}
+
+
+/* == Bubbled Twitter Widget Styles == */
+
+#bubbled ul.tweets {
+	list-style-type: none !important;
+	margin: 0;
+	padding: 0 0 5px 0;
+	background: url(../images/twitter_bird.png) no-repeat 180px bottom;
+	font-size: 12px;
+}
+
+#bubbled ul.tweets li {
+	padding: 10px;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 0 20px 0;
+	border: none;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+	color: #666;
+}
+
+#bubbled ul.tweets li:after {
+
+
+/* TRIANGLE ARROW - SMALL */ content: "\00a0";
+	display: block;
+	position: absolute;
+	bottom: -34px;
+	left: 147px;
+	width: 0;
+	height: 0;
+	border-width: 14px
+
+0px 20px 30px;
+	/* vary these values to change the angle of the vertex */ border-style: solid;
+	border-color: #CCC transparent transparent;
+}
+
+#bubbled ul.tweets li a {
+	display: inline;
+	background: none;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#bubbled ul.tweets li a:hover {
+	text-decoration: underline;
+}
+
+#bubbled ul.tweets li .time	a {
+	position: absolute;
+	bottom: -25px;
+	left: 15px;
+	font-size: 11px;
+	color: #666
+}
+
+#bubbled ul.tweets li .tweet-content {
+	display: block;
+}
+
+#bubbled ul.tweets li .meta {
+	display: block;
+	font: italic 11px Georgia, Times New Roman !important;
+	color: #999 !important;
+	width: 100%;
+	padding: 0 0 5px 0;
+}
+
+#bubbled ul.tweets li .meta a {
+	font-size: 10px;
+	color: #888;
+	font-weight: normal;
+}
+
+/* == Normal Twitter Widget Styles == */
+
+#normal {
+	font-family: inherit;
+
+	width: 100%;
+	margin: 0 0 20px 0 !important;
+
+}
+
+#normal ul.tweets {
+	list-style-type: none !important;
+	margin: 0 !important;
+	padding: 0 0 50px 0 !important;
+	background: url(../images/twitter_bird.png) no-repeat 70% bottom;
+
+}
+
+#normal ul.tweets li {
+	padding: 10px 0px !important;
+	border-bottom: 1px solid #eee;
+	margin: 0px 0px !important;
+}
+
+#normal ul.tweets li a {
+	font-weight: normal
+}
+
+#normal ul.tweets li a:hover {
+	text-decoration: underline;
+}
+
+#normal ul.tweets li .tweet-content {
+	display: block;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+#normal ul.tweets li .meta {
+	display: block;
+	font: italic 11px Georgia, Times New Roman !important;
+	color: #999 !important;
+	width: 100%;
+	padding: 2px 0 2px 0;
+}
+
+#normal ul.tweets li .time a {
+	font-size: 10px;
+	color: #666;
+	height: 20px;
+	line-height: 17px;
+	margin-bottom: 7px;
+	font-weight: normal;
+}
+
+#normal ul.tweets .tfsubscribelink {
+	margin: auto !important;
+	text-align: center !important;
+	width: 100%;
+	padding-top: 25px !important;
+	margin-left: -15px !important;}
+
+/* == JQuery Tabs Widget == */
+
+#awp_tabs {
+	padding: 0 !important;
+	margin: 0px auto 10px auto;
+	border: none !important;
+	background: none !important
+	
+}
+
+.ui-tabs-panel,.awp_tabnav { 
+	padding: 0 !important;
+	 
+	}
+
+ul.awp_tabnav {
+	position: relative;
+	margin: 0 0px 20px 0px !important;
+	list-style-type: none !important;
+	width: 100%;
+	background: none;
+	border-top: 3px solid #575757;
+	padding-top: 10px !important;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-radius: 0;
+}
+
+ul.awp_tabnav li {
+	display: inline-block !important;
+	padding: 0 !important;
+	border: none !important;
+	background: none !important;
+	
+}
+
+ul.awp_tabnav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #343434 !important;
+	outline: none;
+	font-size:10px !important;
+	
+	border-bottom: none !important;
+	font-weight: 700;
+
+	
+	
+}
+
+#awp_tabs ul.awp_tabnav li a:hover {
+	color: #fff !important;
+	background: #343434;
+	text-decoration: none;
+
+}
+
+ul.awp_tabnav li a:active, ul.awp_tabnav li.ui-tabs-selected a {
+	position: relative;
+	z-index: 9999 !important;
+	text-decoration: none;
+
+	color: #fff !important;
+	
+	background: #343434;
+	}
+
+.awp_tabs_body {
+	position: relative;
+	z-index: 1 !important;
+	background: #fff !important;
+	
+
+}
+
+.awp_tab_single_box {
+	float: left;
+	width: 96%;
+	padding: 2%;
+	display: none;
+	
+}
+
+.awp_tabs_body .inside {
+	margin: 0 !important;
+	padding: 0 !important
+}
+
+.awp_tabs_body .inside ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	
+}
+
+.awp_tabs_body .inside ul li {
+	border-top: 1px solid #eee !important;
+	float: left;
+	display: inline;
+	font-size: 12px !important;
+	line-height: 18px;
+	color: #343434 !important;
+	margin: 0px 1px 0px 0px !important;
+	padding:10px 0px !important;
+	cursor: pointer;
+	border-bottom: none;
+	vertical-align: top !important;
+	width: 270px;
+}
+
+.awp_tabs_body .inside ul li a {
+	display: block;
+	padding: 0px 7px 10px;
+	color: #444;
+	font: inherit 11px Arial, Helvetica, sans-serif !important;
+	text-decoration: none !important
+}
+
+.awp_tabs_body .inside ul li a:hover {
+	text-decoration: none;
+	color: #0088CC
+}
+
+.awp_tabs_body img { 
+	width: 67px; 
+	}
+
+.awp_tabs_body .inside, .awp_tabs_body .awp_tabs_box_first {
+	
+	height: auto;
+	display: block;
+}
+
+.awp_tabs_body .inside li {
+	padding: 10px 0px !important;
+	margin: 0 !important;
+	width: 99% !important;
+	background: none !important;
+}
+
+.awp_tabs_body .inside li a {
+	margin: 0px !important;
+	padding: 0px !important;
+	font-weight: 700 !important;
+	color: #343434 !important;
+}
+
+.awp_tabs_body .inside a:hover {
+	color: #0088CC;
+}
+
+.awp_tabs_body .inside li .awp_info {
+	display: table !important;
+	top: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 70%;
+	color: #999;
+	font-size: 11px;
+}
+
+.awp_tabs_body .inside li .awp_info a {
+	font-size: 12px;
+}
+
+.awp_tabs_body .inside li .awp_info div {
+	display: block !important
+}
+
+.awp_tabs_body .inside ul li .awp_meta {
+	display: block !important;
+	color: #999 !important;
+	width: 100%;
+	font-size: 12px;
+}
+
+.awp_tabs_body .inside ul li .awp_meta a {
+	color: #999 !important;
+
+}
+
+.awp_tabs_body .inside ul li .awp_meta a:hover {
+	
+}
+
+.awp_tabs_body .inside li img.avatar, .awp_tabs_body .inside li img.thumb {
+
+
+	background: #fff;
+	float: left !important;
+	margin: 0px 8px 0px 0px;
+}
+
+.awp_tabs_body .inside li:first-child {
+	border-top: none !important;
+}
+
+.awp_tabs_body #awp-tabs-tags {
+	padding: 10px;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+/* == Archives == */
+
+div.advancedwidgetpack ul.archives-icon {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.archives-icon li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.archives-icon li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.archives-icon li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px 5px 5px 25px;
+	min-height: 15px;
+	background: url(../images/icon-archives.png) no-repeat 5px 6px;
+}
+
+div.advancedwidgetpack ul.archives-icon li a {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+div.advancedwidgetpack ul.archives {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.archives li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.archives li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.archives li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px;
+	min-height: 15px;
+}
+
+div.advancedwidgetpack .archive-container {
+	margin: auto;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+/* == Categories == */
+
+div.advancedwidgetpack ul.categories-icon {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.categories-icon li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.categories-icon li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.categories-icon li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px 5px 5px 25px;
+	min-height: 15px;
+	background: url(../images/icon-categories.png) no-repeat 5px 6px;
+}
+
+div.advancedwidgetpack ul.categories {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.categories li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.categories li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.categories li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px;
+	min-height: 15px;
+}
+
+div.advancedwidgetpack .categories-container {
+	margin: auto;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+/* == Pages == */
+
+div.advancedwidgetpack ul.pages-icon {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.pages-icon li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.pages-icon li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.pages-icon li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px 5px 5px 25px;
+	min-height: 15px;
+	background: url(../images/icon-pages.png) no-repeat 5px 6px;
+}
+
+div.advancedwidgetpack ul.pages {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.pages li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.pages li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.pages li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px;
+	min-height: 15px;
+}
+
+div.advancedwidgetpack .pages-container {
+	margin: auto;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+/* == Authors == */
+
+div.advancedwidgetpack ul.author-icon {
+	position: relative;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.author-icon li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.author-icon li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.author-icon li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px 5px 5px 25px;
+	min-height: 15px;
+	background: url(../images/icon-user.png) no-repeat 5px 6px;
+}
+
+div.advancedwidgetpack ul.author {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+div.advancedwidgetpack ul.author li:first-child {
+	border-top: none;
+}
+
+div.advancedwidgetpack ul.author li:last-child {
+	border-bottom: none;
+}
+
+div.advancedwidgetpack ul.author li {
+	border-bottom: 1px dotted #d5d5d5;
+	padding: 5px;
+	min-height: 15px;
+}
+
+div.advancedwidgetpack .author-container {
+	margin: auto;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+/* == 125px Ad Widget == */
+
+ul.ads {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+ul.ads li {
+	float: left;
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+ul.ads li.alt {
+	float: right;
+}
+
+ul.ads li img {
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 1px;
+	border: 1px solid #ddd;
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden;
+}
+
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+	clear: left;
+}
+
+#cboxContent {
+	position: relative;
+}
+
+#cboxLoadedContent {
+	overflow: auto;
+}
+
+#cboxTitle {
+	margin: 0;
+}
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+	cursor: pointer;
+}
+
+.cboxPhoto {
+	float: left;
+	margin: auto;
+	border: 0;
+	display: block;
+}
+
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+	box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+
+#cboxOverlay {
+	background: url(../images/overlay.png) repeat 0 0;
+}
+
+#colorbox {
+	
+}
+
+#cboxTopLeft {
+	width: 21px;
+	height: 21px;
+	background: url(../images/controls.png) no-repeat -101px 0;
+}
+
+#cboxTopRight {
+	width: 21px;
+	height: 21px;
+	background: url(../images/controls.png) no-repeat -130px 0;
+}
+
+#cboxBottomLeft {
+	width: 21px;
+	height: 21px;
+	background: url(../images/controls.png) no-repeat -101px -29px;
+}
+
+#cboxBottomRight {
+	width: 21px;
+	height: 21px;
+	background: url(../images/controls.png) no-repeat -130px -29px;
+}
+
+#cboxMiddleLeft {
+	width: 21px;
+	background: url(../images/controls.png) left top repeat-y;
+}
+
+#cboxMiddleRight {
+	width: 21px;
+	background: url(../images/controls.png) right top repeat-y;
+}
+
+#cboxTopCenter {
+	height: 21px;
+	background: url(../images/border.png) 0 0 repeat-x;
+}
+
+#cboxBottomCenter {
+	height: 21px;
+	background: url(../images/border.png) 0 -29px repeat-x;
+}
+
+#cboxContent {
+	background: #fff;
+	overflow: hidden;
+}
+
+.cboxIframe {
+	background: #fff;
+}
+
+#cboxError {
+	padding: 50px;
+	border: 1px solid #ccc;
+}
+
+#cboxLoadedContent {
+	margin-bottom: 28px;
+}
+
+#cboxTitle {
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #949494;
+}
+
+#cboxCurrent {
+	position: absolute;
+	bottom: 4px;
+	left: 58px;
+	color: #949494;
+}
+
+#cboxSlideshow {
+	position: absolute;
+	bottom: 4px;
+	right: 30px;
+	color: #0092ef;
+}
+
+#cboxPrevious {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url(../images/controls.png) no-repeat -75px 0;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+
+#cboxPrevious:hover {
+	background-position: -75px -25px;
+}
+
+#cboxNext {
+	position: absolute;
+	bottom: 0;
+	left: 27px;
+	background: url(../images/controls.png) no-repeat -50px 0;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+
+#cboxNext:hover {
+	background-position: -50px -25px;
+}
+
+#cboxLoadingOverlay {
+	background: url(../images/loading_background.png) no-repeat center center;
+}
+
+#cboxLoadingGraphic {
+	background: url(../images/loading.gif) no-repeat center center;
+}
+
+#cboxClose {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: url(../images/controls.png) no-repeat -25px 0;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+}
+
+#cboxClose:hover {
+	background-position: -25px -25px;
+}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+
+.cboxIE6 #cboxTopLeft {
+	background: url(../images/ie6/borderTopLeft.png);
+}
+
+.cboxIE6 #cboxTopCenter {
+	background: url(../images/ie6/borderTopCenter.png);
+}
+
+.cboxIE6 #cboxTopRight {
+	background: url(../images/ie6/borderTopRight.png);
+}
+
+.cboxIE6 #cboxBottomLeft {
+	background: url(../images/ie6/borderBottomLeft.png);
+}
+
+.cboxIE6 #cboxBottomCenter {
+	background: url(../images/ie6/borderBottomCenter.png);
+}
+
+.cboxIE6 #cboxBottomRight {
+	background: url(../images/ie6/borderBottomRight.png);
+}
+
+.cboxIE6 #cboxMiddleLeft {
+	background: url(../images/ie6/borderMiddleLeft.png);
+}
+
+.cboxIE6 #cboxMiddleRight {
+	background: url(../images/ie6/borderMiddleRight.png);
+}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+	_behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}

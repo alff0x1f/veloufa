@@ -1,0 +1,31 @@
+.page-block.schedule
+  .schedule-list
+    display: block
+    li
+      display: block
+      padding: 10px
+      overflow: hidden
+      height: 34px
+      &:nth-child(even)
+        background: rgba(255,255,255,0.1)
+  .time
+    display: block
+    float: left
+    @include ArialBlack()
+    font-size: 20px
+    border: 2px solid $color_white
+    width: 100px
+    height: 30px
+    text-align: center
+    margin-right: 10px
+  .title
+    display: block
+    font-size: 18px
+    margin-top: -2px
+    line-height: 1em
+    margin-left: 114px
+  .desc
+    color: #ccc
+    display: block
+    font-size: 12px
+    margin-top: 5px

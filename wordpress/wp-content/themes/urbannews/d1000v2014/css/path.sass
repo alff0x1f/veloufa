@@ -1,0 +1,36 @@
+.page-block.path
+  .yandex-map
+    width: 600px
+    height: 500px
+    float: left
+    border: 10px solid $color_DARKNESS
+    overflow: hidden
+  .text
+    margin-left: 640px
+    font-size: 16px
+    text-align: justify
+    padding-top: 10px
+    p
+      margin-bottom: 10px
+    a
+      color: $color_white
+
+  .feedback
+    margin-left: 640px
+    @include ArialBlack()
+    font-size: 16px
+    text-align: center
+    .title
+      margin-bottom: 10px
+    .feedback-link
+      display: inline-block
+      background: $color_red
+      @include verticalAlignMiddle(36px,18px)
+      color: $color_white
+      text-decoration: none!important
+      font-family: Arial, Helvetica, sans-serif
+      font-weight: normal
+      padding-left: 10px
+      padding-right: 10px
+      &:hover
+        background: $color_red_hover

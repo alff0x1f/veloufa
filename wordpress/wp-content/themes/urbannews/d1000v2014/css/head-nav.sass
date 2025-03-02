@@ -1,0 +1,66 @@
+$nav_height: 80px
+
+.menu
+  width: 630px
+  float: left
+  @include verticalAlignMiddle($nav_height,36px)
+  ul
+    display: block
+    height: 36px
+    li
+      display: block
+      height: 36px
+      float: left
+      a
+        display: block
+        color: $color_white
+        text-decoration: none
+        text-transform: uppercase
+        @include verticalAlignMiddle(36px,14px)
+        padding-left: 25px
+        padding-right: 25px
+        &:hover
+          background: $color_red
+
+.social
+  float: right
+  height: 80px
+  background: $color_DARKNESS
+  width: 330px
+  padding-left: 20px
+  .social-link
+    float: left
+    @include verticalAlignMiddle(80px,24px)
+    padding-left: 10px
+    padding-right: 10px
+    &:before
+      content: ''
+      display: block
+      margin: 0 auto
+      width: 24px
+      height: 24px
+      background: url(../img/head-social.png)
+    &.social-vk
+      &:before
+        background-position: 0px 0px
+    &.social-fb
+      &:before
+        background-position: -48px 0px
+    &.social-twi
+      &:before
+        background-position: -24px 0px
+  .register
+    display: block
+    float: right
+    margin-top: 10px
+    background: $color_red
+    text-transform: uppercase
+    @include verticalAlignMiddle(60px,18px)
+    padding-left: 20px
+    padding-right: 20px
+    color: $color_white
+    text-decoration: none
+    margin-right: 10px
+    &:hover
+      background: $color_red_hover
+

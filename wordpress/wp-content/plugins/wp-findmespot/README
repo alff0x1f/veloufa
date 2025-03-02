@@ -1,0 +1,85 @@
+-----------------------------------------------------------------------------------
+**READ THIS BEFORE INSTALLING**
+By downloading and installing this plugin, I'm assuming that you have the Spot Messenger device. I also assume that by using the Spot Messenger device, you are undertaking a trip or journey that may be arduous, long, or even dangerous. Outdoor activities hold a risk of injury or death, and I further assume that you know what these risks entail. This plugin will NOT mitigate or lessen these risks. This plugin should NOT be used for mission-critical or life-safety applications, as it relies on outside sources for it to run, such as Google Maps API, Weather Underground, and Spot Messenger. I have no control over these services should they decide to change their data URLs or change map code in the middle of your journey, and if a crucial supply drop depends on someone watching your progress on the map to coordinate, it could go horribly wrong if Google or Spot decides to turn off access to the API the day of an important rendezvous. By installing this plugin, you assume responsibility for the proper setup and maintenance of the appropriate URLs on the setup page. This plugin is intended only for the entertainment of your site visitors. If you're using Spot Messenger locations to coordinate important meetings or other critical functions, I suggest that you also set up a "follow-me" map on the Spot Messenger site.
+
+By using this plugin, you are bound by the rules of the FindMeSpot service, the Google Maps API, and the Weather Underground API.
+
+By installing this plugin, you agree not to hold Joe Bly and Caliban Designs responsible or liable for any damages, losses, or mishaps that befall you on any trip.
+-----------------------------------------------------------------------------------
+INSTALLATION:
+
+This installs as a standard plugin. Unzip the entire contents of this file into your wordpress plugins folder. All the files should be in a new folder called wp-findmespot.
+
+In your wordpress Admin page, go to your plugin list, and activate the wp-findmespot plugin. It will add a table to the wordpress database that stores the lat/long, date, and Spot unit ID info. When the plugin is activated, you will see the options page under "settings" on the Wordpress Admin page.
+
+________________________________________________________________________
+
+Using the plugin in a post or page
+----------------------------------
+Shortcodes:
+There are two shortcodes that you can place in a post or page.
+Since the plugin is created as a class, you can place a shortcode more than once.
+
+1.
+
+[findmespotmap <parameters>]
+
+There are nine parameters: v, start, end, id, type, sv, and wx.
+- v: [optional] 2 or 3. This determines the Google Map API version. 3 has more goodies. Defaults to 2 if not used.
+- start: quote-delimited datetime string, in YYYY-MM-DD HH:MM:SS format.
+- end: quote-delimited datetime string, in YYYY-MM-DD HH:MM:SS format.
+- id: quote-delimited Spot Messenger device ID. The device ID can be found either on the Spot website or under the batteries on the Spot Messenger.
+- h: [optional] Map height. 1 to 3000. Overrides the height set in the plugin options page. No quotes necessary.
+- w: [optional] Map width. 1 to 3000. Overrides the height set in the plugin options page. No quotes necessary.
+For the following options to have any effect, you *must* use v=3 .
+- type: [optional] s, r, h, or t
+    h  --(HYBRID)  	This map type displays a transparent layer of major streets on satellite images.
+    r  --(ROADMAP) (default)	This map type displays a normal street map.
+    s  --(SATELLITE) 	This map type displays satellite images.
+    t  --(TERRAIN)		This map type displays maps with physical features such as terrain and vegetation.
+- sv: [optional] yes or no. Enables / Disables streetview in v3 maps. Defaults to "no" if not used.
+- wx: [optional] none, station, or personal. Sets the weather data in the merker info window.
+	station -- will pull weather from governmental weather stations.
+    personal --  will pull weather from personal weather stations.
+    none (default) -- No weather data retrieved or displayed.
+
+You can set the dates in the past or the future. Obviously, the start date must be earlier than the end date.
+-If both dates are in the future,or if there is no spot data in the date range given, then the map will display the world map without a route.
+-If start is in the past and the end is in the future, then new route points will appear when the map refreshes automatically every fifteen minutes.
+-Weather:
+--Data is retrieved from Weather Underground (http://www.wunderground.com)
+--If your point is too far away, like the middle of the ocean, no weather is available.
+--If you choose to display data from personal weather stations, the results may be inaccurate, incomplete, or not available.
+Usage Example: [findmespotmap v=3 start="2010-01-01 15:00:00" end="2010-01-05 09:00:00" id="0-1234567" type=r sv=yes wx=station]
+
+2.
+
+[kmlmap <parameters>]
+
+This shortcode allows you to bypass the spot messenger data and call up a map using either kml or kmz files. Handy for times you want to display an overview map of a route.
+-w: [optional] 1 to 3000. Map width in pixels. No quotes necessary
+-h: [optional] 1 to 3000. Map height in pixels.  No quotes necessary
+-kml: Quote-delimited string. The name of the kml/kmz file. The kmz/kml file *MUST* be placed in the site's root directory.
+UsageExample: [kmlmap w=500 h=500 kml="camp-to-annascaul.kmz"]
+
+Example showing the results of both shortcodes: http://www.someguyinnevada.com/off-we-go-annascaul-to-dingle
+________________________________________________________________________
+
+You can call the maps in a standalone page on your site by using the following URL formats. If you choose to do so, keep in mind that the URL has to refer to your wordpress site where you've installed the wp-findmespot plugin.  Read through the URL carefully and make sure you set the variables accurately. When indicated, URL Encoding is essential:
+
+Version 2:
+http://<your wordpress site root>/wp-content/plugins/wp-findmespot/maps.php?s=URLENCODED_START_DATETIME&e=URLENCODED_END_DATETIME&id=YOUR_SPOT_ID&h=HEIGHT&w=WIDTH
+
+Version 3:
+http://<your wordpress site root>/wp-content/plugins/wp-findmespot/maps3.php?s=URLENCODED_START_DATETIME&e=URLENCODED_END_DATETIME&id=YOUR_SPOT_ID&wx=station(OR)personal(OR)none&sv=yes(OR)no&h=HEIGHT&w=WIDTH
+
+KML map: http://www.someguyinnevada.com/wp-content/plugins/wp-findmespot/kmlmap.php?k=URLENCODED_KML_OR_KMZ_MAP_FILE&h=HEIGHT&w=WIDTH
+
+(If you need to URLEncode any of the values, you can do so at http://meyerweb.com/eric/tools/dencoder/ or do a google search on "urlencode tool")
+
+_______________________________________________________________________
+
+Quirks:
+-Reverse Geocoding: The Google geocoding server is still pretty hit-and-miss. It can time out even on obvious locations. So far, the street view and weather services are still reliable.
+-If the map loading times-out due to network issues, then the formatting looks odd.
+-The shortcodes are not widget-aware. If you need to place the shortcodes inside a sidebar widget, consider the use of a plugin like "Sidebar Shortcodes."  ...but this has not been tested at all.

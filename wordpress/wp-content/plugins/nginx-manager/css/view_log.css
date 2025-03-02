@@ -1,0 +1,14 @@
+/* Log */
+
+.nginxm_log_info {
+   color: #006505;
+}
+
+.nginxm_log_warning {
+   color: #D54E21;
+}
+
+.nginxm_log_error {
+   color: #BC0B0B;
+   font-weight : bold;
+}

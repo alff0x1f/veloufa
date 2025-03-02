@@ -1,0 +1,849 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Widget pack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-20 12:42+1000\n"
+"PO-Revision-Date: 2012-05-20 12:43+1000\n"
+"Last-Translator: WPInsite <broadys@ovi.com>\n"
+"Language-Team: WPInsite\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress-dev\\wp-content\\plugins\\advanced-widget-pack\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/advanced_widget_pack.class.php:204
+msgid "What you're trying to do looks a little shady."
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:220
+msgid "Advanced Widget Pack - Widget Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:221
+msgid "Use this page to enable and disable the individual widgets.<br /><br />If a widget is disabled it will not be displayed on the Widgets page."
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:227
+msgid "Advanced Widget Pack"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:232
+msgid "Display Latest Posts Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:238
+msgid "Display Popular Posts Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:246
+msgid "Display Random Posts Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:252
+msgid "Display Contact Info Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:260
+msgid "Display Feedburner Subscription Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:266
+msgid "Display Flickr Feed Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:274
+msgid "Display Google Maps Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:280
+msgid "Display Video Embed Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:288
+msgid "Display Twitter Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:294
+msgid "Display Tabbed Posts Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:302
+msgid "Display Archives Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:308
+msgid "Display Categories Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:316
+msgid "Display Pages Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:322
+msgid "Display Authors Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:330
+msgid "Display Advertisement Widget:"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:340
+msgid "Save Changes"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:353
+msgid "You'll need to configure the Advanced Widget Pack plugin options before using it. "
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:353
+msgid "Enable / Disable the individual widgets "
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:353
+msgid "here"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:467
+#: lib/advanced_widget_pack.class.php:472
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:279
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:327
+msgid "at"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:485
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:251
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:289
+msgid "No posts available"
+msgstr ""
+
+#: lib/advanced_widget_pack.class.php:645
+msgid "No Tweets found"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:22
+msgid "Allows you to display unlimited 125 x 125px advertisements."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:33
+msgid "AWP - Advertisements"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:68
+msgid "Advertisements Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:71
+#: lib/advanced_widget_pack_widget_archives.class.php:65
+#: lib/advanced_widget_pack_widget_authors.class.php:70
+#: lib/advanced_widget_pack_widget_categories.class.php:68
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:68
+#: lib/advanced_widget_pack_widget_feedburner.class.php:63
+#: lib/advanced_widget_pack_widget_flickr.class.php:65
+#: lib/advanced_widget_pack_widget_latestposts.class.php:74
+#: lib/advanced_widget_pack_widget_pages.class.php:68
+#: lib/advanced_widget_pack_widget_popularposts.class.php:74
+#: lib/advanced_widget_pack_widget_randomposts.class.php:74
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:74
+msgid "You can set the actual width of the widget in px (e.g 250)"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:71
+#: lib/advanced_widget_pack_widget_archives.class.php:65
+#: lib/advanced_widget_pack_widget_authors.class.php:70
+#: lib/advanced_widget_pack_widget_categories.class.php:68
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:68
+#: lib/advanced_widget_pack_widget_feedburner.class.php:63
+#: lib/advanced_widget_pack_widget_flickr.class.php:65
+#: lib/advanced_widget_pack_widget_latestposts.class.php:74
+#: lib/advanced_widget_pack_widget_pages.class.php:68
+#: lib/advanced_widget_pack_widget_popularposts.class.php:74
+#: lib/advanced_widget_pack_widget_randomposts.class.php:74
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:74
+msgid "Widget Width:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:74
+#: lib/advanced_widget_pack_widget_archives.class.php:68
+#: lib/advanced_widget_pack_widget_authors.class.php:73
+#: lib/advanced_widget_pack_widget_categories.class.php:71
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:71
+#: lib/advanced_widget_pack_widget_feedburner.class.php:66
+#: lib/advanced_widget_pack_widget_flickr.class.php:68
+#: lib/advanced_widget_pack_widget_latestposts.class.php:77
+#: lib/advanced_widget_pack_widget_pages.class.php:71
+#: lib/advanced_widget_pack_widget_popularposts.class.php:77
+#: lib/advanced_widget_pack_widget_randomposts.class.php:77
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:77
+msgid "px"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:75
+#: lib/advanced_widget_pack_widget_archives.class.php:69
+#: lib/advanced_widget_pack_widget_authors.class.php:74
+#: lib/advanced_widget_pack_widget_categories.class.php:72
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:72
+#: lib/advanced_widget_pack_widget_feedburner.class.php:67
+#: lib/advanced_widget_pack_widget_flickr.class.php:69
+#: lib/advanced_widget_pack_widget_latestposts.class.php:78
+#: lib/advanced_widget_pack_widget_pages.class.php:72
+#: lib/advanced_widget_pack_widget_popularposts.class.php:78
+#: lib/advanced_widget_pack_widget_randomposts.class.php:78
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:78
+msgid "%"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:77
+msgid "Mimimum size required is 260px or 100%"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:82
+#: lib/advanced_widget_pack_widget_archives.class.php:75
+#: lib/advanced_widget_pack_widget_authors.class.php:80
+#: lib/advanced_widget_pack_widget_categories.class.php:78
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:78
+#: lib/advanced_widget_pack_widget_feedburner.class.php:73
+#: lib/advanced_widget_pack_widget_flickr.class.php:75
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:68
+#: lib/advanced_widget_pack_widget_latestposts.class.php:84
+#: lib/advanced_widget_pack_widget_pages.class.php:78
+#: lib/advanced_widget_pack_widget_popularposts.class.php:84
+#: lib/advanced_widget_pack_widget_randomposts.class.php:84
+msgid "Title:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:87
+msgid "Ads:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:89
+msgid "Enter one ad entry per line in the following format:<br /> <code>URL|Image URL|Image Alt Text|rel</code><br /><strong>Note:</strong> You must hit your &quot;enter/return&quot; key after each ad entry."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_advertisements.class.php:94
+msgid "Open ad links in a new window?"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:22
+msgid "Displays a monthly list of your site's archived posts."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:31
+msgid "AWP - Archived Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:62
+msgid "Archive Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:71
+#: lib/advanced_widget_pack_widget_authors.class.php:76
+#: lib/advanced_widget_pack_widget_categories.class.php:74
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:74
+#: lib/advanced_widget_pack_widget_feedburner.class.php:69
+#: lib/advanced_widget_pack_widget_flickr.class.php:71
+#: lib/advanced_widget_pack_widget_latestposts.class.php:80
+#: lib/advanced_widget_pack_widget_pages.class.php:74
+#: lib/advanced_widget_pack_widget_popularposts.class.php:80
+#: lib/advanced_widget_pack_widget_randomposts.class.php:80
+msgid "Optimum size should be between 230px - 260px or 100%"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:80
+#: lib/advanced_widget_pack_widget_authors.class.php:85
+#: lib/advanced_widget_pack_widget_categories.class.php:83
+#: lib/advanced_widget_pack_widget_pages.class.php:83
+msgid "Format:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:82
+#: lib/advanced_widget_pack_widget_authors.class.php:87
+#: lib/advanced_widget_pack_widget_categories.class.php:85
+#: lib/advanced_widget_pack_widget_pages.class.php:85
+msgid "List"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:83
+#: lib/advanced_widget_pack_widget_authors.class.php:88
+#: lib/advanced_widget_pack_widget_categories.class.php:86
+#: lib/advanced_widget_pack_widget_pages.class.php:86
+msgid "Dropdown"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:85
+msgid "Select the format you would like the archives displayed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:90
+msgid "Display post count of posts next to each month name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:95
+msgid "Display an image icon next to each month name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:96
+msgid "If you selected the list form you can display an icon next to each month name."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:171
+msgid "Select a option from the dropdown list to view the posts for that month"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_archives.class.php:173
+msgid "Select Month"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:24
+msgid "Displays a list of your site's authors."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:33
+msgid "AWP - Author List"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:67
+msgid "Authors Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:90
+msgid "Select the format you would like the authors displayed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:94
+msgid "Sort authors by:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:96
+msgid "Display name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:97
+msgid "Preferred name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:98
+msgid "Auhor ID"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:103
+msgid "Exclude Authors:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:105
+msgid "Enter list of Author IDs, separated by commas."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:110
+msgid "Display post count next to each author name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:115
+msgid "Hide authors with no posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:120
+#: lib/advanced_widget_pack_widget_pages.class.php:108
+msgid "Display an image icon next to each page name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:120
+msgid "Display an image icon next to each author name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:121
+msgid "If you selected the list form you can display an icon next to each author name."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_authors.class.php:202
+msgid "Select an author from the dropdown list to view the posts by that author"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:24
+msgid "Displays a list of your site's categories."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:33
+msgid "AWP - Category List"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:65
+msgid "Category Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:88
+msgid "Select the format you would like the categories displayed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:93
+msgid "Display post count next to each category name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:98
+msgid "Display an image icon next to each category name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:99
+msgid "If you selected the list form you can display an icon next to each category name."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:104
+msgid "Hide empty categories"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_categories.class.php:181
+msgid "Select a category from the dropdown list to view the posts for that category"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:22
+msgid "Displays the site contact info in a widget"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:31
+msgid "AWP - Display Contact Info"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:65
+msgid "Contact Info Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:83
+msgid "Address:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:85
+msgid "Do not use HTML. Hit enter for new line"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:89
+msgid "Phone:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:94
+msgid "Fax:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:99
+msgid "Email:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:104
+msgid "Website URL:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:106
+msgid "Enter the full URL. EG. http://www.wpinsite.com"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_contactinfo.class.php:111
+msgid "Display icons next to address details"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:22
+msgid "Display the textbox allowing visitors to subscribe to your Feedburner feed via email."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:31
+msgid "AWP - Feedburner Subscribe"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:60
+msgid "Feedburner Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:78
+msgid "Feedburner ID:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:136
+msgid "Enter your email address to subscribe"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:140
+msgid "You will receive a daily email with new content from our website."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_feedburner.class.php:140
+msgid "Subscribe"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:22
+msgid "Displays photos from a specified Flickr account."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:31
+msgid "AWP - Flickr Feed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:62
+msgid "Flickr Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:80
+msgid "Flickr ID:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:85
+msgid "Number of photos:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:91
+msgid "Include ColorBox jQuery library"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_flickr.class.php:184
+msgid "View more photos"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:22
+msgid "Displays a custom Google maps widget."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:31
+msgid "AWP - Google Maps"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:65
+msgid "Google Maps Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:73
+msgid "Width:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:78
+msgid "Height:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:83
+msgid "Latitude:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_googlemaps.class.php:88
+msgid "Longitude:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:22
+msgid "Displays a custom list of latest posts including thumbnail images."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:31
+msgid "AWP - Latest Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:71
+msgid "Latest Posts Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:90
+#: lib/advanced_widget_pack_widget_popularposts.class.php:90
+#: lib/advanced_widget_pack_widget_randomposts.class.php:90
+msgid "Display thumbnail images"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:94
+#: lib/advanced_widget_pack_widget_popularposts.class.php:94
+#: lib/advanced_widget_pack_widget_randomposts.class.php:94
+msgid "Select the post type to display"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:94
+#: lib/advanced_widget_pack_widget_popularposts.class.php:94
+#: lib/advanced_widget_pack_widget_randomposts.class.php:94
+msgid "Post type:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:104
+#: lib/advanced_widget_pack_widget_popularposts.class.php:104
+#: lib/advanced_widget_pack_widget_randomposts.class.php:104
+msgid "Select the custom post type to display the listings for"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:108
+#: lib/advanced_widget_pack_widget_popularposts.class.php:108
+#: lib/advanced_widget_pack_widget_randomposts.class.php:108
+msgid "Choose the categories:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:120
+#: lib/advanced_widget_pack_widget_popularposts.class.php:120
+#: lib/advanced_widget_pack_widget_randomposts.class.php:120
+msgid "Number of Posts to display:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:132
+#: lib/advanced_widget_pack_widget_popularposts.class.php:132
+#: lib/advanced_widget_pack_widget_randomposts.class.php:132
+msgid "You can set the amount of characters to display before trunicating entry (e.g 35)"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:132
+#: lib/advanced_widget_pack_widget_popularposts.class.php:132
+#: lib/advanced_widget_pack_widget_randomposts.class.php:132
+msgid "Amount of characters to display before trunicating entry:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_latestposts.class.php:134
+#: lib/advanced_widget_pack_widget_popularposts.class.php:134
+#: lib/advanced_widget_pack_widget_randomposts.class.php:134
+msgid "Optimum size should be 35 characters"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:24
+msgid "Displays a list of your site's pages."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:33
+msgid "AWP - Page List"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:65
+msgid "Pages Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:88
+msgid "Select the format you would like the pages displayed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:92
+msgid "Sort page by:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:92
+msgid "Sort pages by:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:94
+msgid "Page title"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:95
+msgid "Menu order"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:96
+msgid "Page ID"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:101
+msgid "Exclude Pages:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:103
+msgid "Enter list of Page IDs, separated by commas."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:109
+msgid "If you selected the list form you can display an icon next to each page name."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_pages.class.php:186
+msgid "Select a page from the dropdown list to view that page"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_popularposts.class.php:22
+msgid "Displays a custom list of popular posts including thumbnail images."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_popularposts.class.php:31
+msgid "AWP - Popular Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_popularposts.class.php:71
+msgid "Popular Posts Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_randomposts.class.php:22
+msgid "Displays a custom list of random posts including thumbnail images."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_randomposts.class.php:31
+msgid "AWP - Random Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_randomposts.class.php:71
+msgid "Random Posts Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:24
+msgid "Display the tabbed interface displaying popular posts, latest posts, comments and tags."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:33
+msgid "AWP - Tabbed Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:71
+msgid "Tabbed Posts Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:80
+msgid "Optimum size should be mimimum 250px or 100%"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:85
+msgid "Popular Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:89
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:106
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:122
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:133
+msgid "Display"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:91
+msgid "popular posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:96
+msgid "Display thumbnail images for popular posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:102
+msgid "Recent Posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:108
+msgid "recent posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:113
+msgid "Display thumbnail images for recent posts"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:118
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:215
+msgid "Comments"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:124
+msgid "comments"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:129
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:216
+msgid "Tags"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:135
+msgid "tags"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:140
+msgid "Order tags by name"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:142
+msgid "Order tags by post count"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:213
+msgid "Popular"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_tabbedposts.class.php:214
+msgid "Recent"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:24
+msgid "Displays a Twitter Widget which displays the recent tweets from a Twitter account."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:33
+msgid "AWP - Latest Tweets"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:68
+msgid "Twitter Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:86
+msgid "Tweet Styling:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:88
+msgid "Normal"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:89
+msgid "Bubbled"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:91
+msgid "Select the styling you wish to be applied to the Tweets"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:96
+msgid "When tweets clicked, forces timestamp links to be opened in a new tab/window"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:96
+msgid "Open timestamp links in new tab/window"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:100
+msgid "Twitter Account Username (e.g wpinsite)"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:100
+msgid "Twitter Username:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:105
+msgid "Number of Tweets to display:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:115
+msgid "Exclude @replies"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:120
+msgid "Display time of tweet"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_twitter.class.php:125
+msgid "Display Twitter Follow Button"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:22
+msgid "Enables you to embed a video in your site using the built-in WordPress oEmbed feature."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:31
+msgid "AWP - Video Embed"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:60
+msgid "Video Settings"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:68
+msgid "Video URL:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:70
+msgid "Enter in a video URL that is compatible with WordPress's built-in oEmbed feature."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:70
+msgid "Learn More"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:74
+msgid "Video Width in pixels:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:76
+msgid "Simply add a number without the 'px' characters. EG 250."
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:80
+msgid "Description:"
+msgstr ""
+
+#: lib/advanced_widget_pack_widget_video.class.php:82
+msgid "Enter in any content you'd liked displayed after the video."
+msgstr ""
+

@@ -1,0 +1,35 @@
+.page-block.header
+  padding-top: 30px
+  .posts
+    $col_margin: 80px
+    $col_width: ($baseWidth - $col_margin*2) / 3
+    overflow: hidden
+    .post
+      width: $col_width
+      float: left
+      margin-right: $col_margin
+      &:last-child
+        margin-right: 0
+
+      h3
+        font-family: "Arial Black", Arial
+        font-weight: 900
+        font-size: 20px
+        line-height: 1.15em
+        margin-bottom: 15px
+      .text
+        text-align: justify
+        font-size: 12px
+        a
+          color: $color_white
+          text-decoration: underline
+        p
+          margin-bottom: 10px
+  .info
+    margin-top: 20px
+    clear: both
+    font-size: 20px
+    color: $color_red
+    text-align: justify
+    p
+      margin-bottom: 10px

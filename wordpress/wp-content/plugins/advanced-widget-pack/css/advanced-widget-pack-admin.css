@@ -1,0 +1,21 @@
+/*
+Plugin Name: 	Advanced Widget Pack
+Plugin URI: 	http://codecanyon.net/item/advanced-widget-pack
+Description: 	Adds an set of advanced widgets to your WordPress site.
+Version: 		1.4
+Author: 		WPInsite
+Author URI: 	http://www.wpinsite.com
+License: 		Sold exclusively on CodeCanyon
+*/
+
+.advancedwidgetpack-options { }
+.advancedwidgetpack-options fieldset { margin-bottom:8px; overflow:hidden; padding:5px 10px 0 10px; width:auto; }
+.advancedwidgetpack-options fieldset.advancedwidgetpack-general { background-color:#fcfcfc; }
+.advancedwidgetpack-options fieldset legend { font-weight:bold; padding:0 1px; }
+.advancedwidgetpack-options fieldset p:last-child { margin-bottom:20px; }
+
+.awp-switch-link a { width:65px; height:26px; position:absolute; top:0; right:0 }
+.awp-switch-link a.link-true.active, .awp-switch-link a.link-false.active { display:block }
+.awp-switch-link a.link-true { background:url(../images/plugin_switch_on.png) no-repeat 0 0; display:none }
+.awp-switch-link a.link-false { background:url(../images/plugin_switch_off.png) no-repeat 0 0; display:none }
+.awp-switch-link { display:block; width:65px; height:26px; float:left; overflow:hidden; position:relative; margin-right:10px }
