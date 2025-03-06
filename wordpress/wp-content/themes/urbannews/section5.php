@@ -55,7 +55,7 @@
 				<?php } else if (!$image) { ?>
 				
 	<table border="0" cellspacing="0" cellpadding="0" class="section5tbl"><tr>
-    <td class="pp"><a href="<?php the_permalink(); ?>"><img src="http://www.veloufa.ru/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg"></a></td>
+    <td class="pp"><a href="<?php the_permalink(); ?>"><img src="/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg"></a></td>
 				
 				<?php } ?>
 <!-- 

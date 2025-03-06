@@ -104,7 +104,7 @@ get_header(); ?>
 			<?php if ($image) { ?>
 				<img src="<?php echo $image ?>" class="img-feat"/>
             <?php } else if (!$image) { ?>
-                <a href="<?php the_permalink(); ?>"><img src="http://www.veloufa.ru/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg" class="img-feat"/></a>
+                <a href="<?php the_permalink(); ?>"><img src="/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg" class="img-feat"/></a>
             <?php } ?>
 
 			<p class="date-archives"><?php the_time('l, F jS, Y') ?></p>
