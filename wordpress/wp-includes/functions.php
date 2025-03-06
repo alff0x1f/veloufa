@@ -5816,3 +5816,18 @@ All at ###SITENAME###
 		$site_name
 	), $email_change_email['message'], $email_change_email['headers'] );
 }
+
+
+function force_https_assets($url) {
+    return str_replace("http://", "https://", $url);
+}
+
+add_filter('stylesheet_uri', 'force_https_assets');
+add_filter('theme_root_uri', 'force_https_assets');
+add_filter('script_loader_src', 'force_https_assets');  // Fixes JS files
+add_filter('style_loader_src', 'force_https_assets');   // Fixes CSS files
+add_filter('template_directory_uri', 'force_https_assets');
+add_filter('home_url', 'force_https_assets');
+add_filter('site_url', 'force_https_assets');
+add_filter('wp_get_attachment_url', 'force_https_assets'); // Fixes media files
+

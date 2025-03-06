@@ -115,7 +115,7 @@ get_header();
 				<? $size = getimagesize($image); $iw = $size[0]; $ih = $size[1]; ?>
 				<a href="<?php the_permalink(); ?>"><img src="<?php echo $image ?>" width="<?=$iw?>" height="<?=$ih?>" class="img-feat"/></a>
             <?php } else if (!$image) { ?>
-                <a href="<?php the_permalink(); ?>"><img src="http://www.veloufa.ru/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg" class="img-feat"/></a>
+                <a href="<?php the_permalink(); ?>"><img src="/wp-content/themes/urbannews/framework/images/noimage<?=rand(1,3)?>.jpg" class="img-feat"/></a>
             <?php } ?>
 			
 			<p class="date-archives"><?php the_time('j F Y') ?>  <?php //the_author_posts_link(); ?></p>
